@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nicolaspaul/Desktop/Code/api_dotnet/api_dotnet.csproj": {}
+    "c:\\Users\\Nick\\Desktop\\code\\api_dotnet\\api_dotnet.csproj": {}
   },
   "projects": {
-    "/Users/nicolaspaul/Desktop/Code/api_dotnet/api_dotnet.csproj": {
+    "c:\\Users\\Nick\\Desktop\\code\\api_dotnet\\api_dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicolaspaul/Desktop/Code/api_dotnet/api_dotnet.csproj",
+        "projectUniqueName": "c:\\Users\\Nick\\Desktop\\code\\api_dotnet\\api_dotnet.csproj",
         "projectName": "api_dotnet",
-        "projectPath": "/Users/nicolaspaul/Desktop/Code/api_dotnet/api_dotnet.csproj",
-        "packagesPath": "/Users/nicolaspaul/.nuget/packages/",
-        "outputPath": "/Users/nicolaspaul/Desktop/Code/api_dotnet/obj/",
+        "projectPath": "c:\\Users\\Nick\\Desktop\\code\\api_dotnet\\api_dotnet.csproj",
+        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Nick\\Desktop\\code\\api_dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nicolaspaul/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -40,23 +40,27 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[17.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
             },
             "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.2, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -75,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
