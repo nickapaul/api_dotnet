@@ -1,4 +1,6 @@
 namespace api_dotnet;
+
+using addPetResponseDto;
 using RestSharp;
 
 public class Tests
@@ -15,6 +17,15 @@ public class Tests
         var client = new RestClient(options);
         var request = new RestRequest("/v2/pet", Method.Post);
         request.AddHeader("Content-Type", "application/json");
+        var petReq = new AddPetResponseDto();
+        petReq.Id = 0;
+        petReq.Category.Id = 0;
+        petReq.Category.Name = "string";
+        petReq.Name = "doggie";
+        petReq.PhotoUrls[0] = "string";
+        petReq.Tags[0].Id = 0;
+        petReq.Tags[0].Name = "string";
+        petReq.Status = "available";
         var body = @"{" + "\n" +
         @"  ""id"": 0," + "\n" +
         @"  ""category"": {" + "\n" +
